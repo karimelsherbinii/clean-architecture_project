@@ -6,11 +6,14 @@ import 'package:quotes/features/random_quote/data/models/quote_model.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 abstract class RandomQuoteLocalDataSource {
+  // to use in repository file
   Future<QuoteModel> getLastRandomQuote();
+  //
   Future<void> cacheQuote(QuoteModel quote);
 }
 
 class RandomQuoteLocalDataSourceImpl implements RandomQuoteLocalDataSource {
+  // to save data into shared preferences
   final SharedPreferences sharedPreferences;
 
   RandomQuoteLocalDataSourceImpl({required this.sharedPreferences});

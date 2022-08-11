@@ -1,0 +1,4 @@
+#Wed Aug 03 10:31:32 EET 2022
+base.0=/Users/karimelsherbiny/develop/cleancode_simple/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex
